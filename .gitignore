@@ -1,0 +1,75 @@
+# Visual Studio and IDE-specific files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.userprefs
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.sln
+*.xcodeproj
+*.xcworkspace
+*.sublime-workspace
+*.sublime-project
+
+# Compiled Object and Binary Files
+*.o
+*.obj
+*.dll
+*.exe
+*.so
+*.dylib
+*.app
+*.lib
+*.a
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Intermediate and Build files
+Binaries/
+Build/
+Intermediate/
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Cache and Generated Files
+DerivedDataCache/
+Saved/
+
+# Built data for maps
+*_BuiltData.uasset
+
+# Ignore source asset files
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# Ignore temporary files
+*.tmp
+*.log
+*.log.*
+*.cache
+*.pid
+*.gz
+*.old
+
+# Unreal Backup and Autosave files
+Backup/
+*.autosave
+
+# Ignore specific file types often generated in Unreal
+*.ipa
+*.out
+
+# Whitelist PakBlacklist files
+!Build/*/PakBlacklist*.txt
+
+# Icons (do not ignore .ico files within Build)
+!Build/**/*.ico
+
+# macOS-specific files
+.DS_Store
