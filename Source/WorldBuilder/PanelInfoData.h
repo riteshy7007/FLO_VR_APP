@@ -18,7 +18,8 @@ enum ECheckTypeENum
 {
 	Unchecked,
 	LatestChecked,
-	OldChecked
+	OldChecked,
+	CurrnetlyActive
 };
 
 USTRUCT(BlueprintType)
